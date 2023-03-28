@@ -1,0 +1,6 @@
+﻿  Engine.cpp
+  GameObject.cpp
+C:\Users\josh1\Downloads\GAME1017-Labs-main\GAME1017_LE4_OxleyRobert\GAME1017_Framework\GameObject.cpp(68,50): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+C:\Users\josh1\Downloads\GAME1017-Labs-main\GAME1017_LE4_OxleyRobert\GAME1017_Framework\GameObject.cpp(70,51): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+  Generating Code...
+  GAME1017_Framework.vcxproj -> C:\Users\josh1\Downloads\GAME1017-Labs-main\GAME1017_LE4_OxleyRobert\Bin\GAME1017_Framework.exe

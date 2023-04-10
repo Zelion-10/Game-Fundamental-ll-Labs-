@@ -96,7 +96,7 @@ void TitleState::Enter()
 
 	AddChild("bg", new Image({ 0, 0, 1920, 1200 }, { 0.0f, 0.0f, 1024.0f, 768.0f }, "bg"));
 	AddChild("title", new Image({ 0, 0, 800, 156 }, { 112.0f, 100.0f, 800.0f, 156.0f }, "title"));
-	AddChild("play", new PlayButton({ 0, 0, 400, 100 }, { 412.0f, 384.0f, 200.0f, 50.0f }, "play"));
+	/*AddChild("play", new PlayButton({ 0, 0, 400, 100 }, { 412.0f, 384.0f, 200.0f, 50.0f }, "play"));*/
 }
 
 void TitleState::Update()

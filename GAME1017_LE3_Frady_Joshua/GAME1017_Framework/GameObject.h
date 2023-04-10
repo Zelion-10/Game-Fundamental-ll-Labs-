@@ -24,13 +24,14 @@ protected: // private but inherited.
 class Sprite : public GameObject
 {
 public:
+	Sprite(const SDL_Rect src, const SDL_FRect dst);
 	SDL_Rect* GetSrc();
 	virtual void Update() = 0;
 	virtual void Render() = 0;
 
 protected:
 	SDL_Rect m_src;
-	Sprite(const SDL_Rect, const SDL_FRect);
+	/*Sprite(const SDL_Rect, const SDL_FRect)*/;
 };
 
 class AnimatedSprite : public Sprite
